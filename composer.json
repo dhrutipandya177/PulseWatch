@@ -7,8 +7,15 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "laravel/framework": "^13.0",
-        "laravel/tinker": "^3.0"
+        "ext-bcmath": "*",
+        "ext-redis": "*",
+        "laravel/framework": "^11.0",
+        "laravel/tinker": "^3.0",
+        "stancl/tenancy": "^3.8",
+        "laravel/cashier": "^15.0",
+        "livewire/livewire": "^3.5",
+        "laravel/horizon": "^5.29",
+        "spatie/laravel-permission": "^6.9"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
